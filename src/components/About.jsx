@@ -64,7 +64,7 @@ const About = () => {
           viewport={{ once: true }} // Animation triggers only once when in view
           className="flex-1 flex justify-center items-center md:ml-10 mt-10 md:mt-0"
         >
-          <div className='green-pink-gradient p-[2px] rounded-full'>
+          <div className='ml-10 mb-5 green-pink-gradient p-[2px] rounded-full'>
             <img src="/matt.png" alt="Matt Estrada" className="w-full max-w-[360px] rounded-full shadow-lg" />
           </div>
         </motion.div>

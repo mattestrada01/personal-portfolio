@@ -22,29 +22,27 @@ const Typewriter = ({ phrases, speed = 50, deleteSpeed = 50, delay = 2000, delet
         }
       }, isDeleting ? deleteDelay : delay);
     } else if (isDeleting) {
-      // Deleting text
       timeout = setTimeout(() => {
         setText(currentPhrase.substring(0, text.length - 1));
       }, deleteSpeed);
 
       if (text === '') {
-        // Finished deleting the current phrase
         setIsPaused(true);
         setPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
       }
     } else {
-      // Typing text
+      // Typing 
       timeout = setTimeout(() => {
         setText(currentPhrase.substring(0, text.length + 1));
       }, speed);
 
       if (text === currentPhrase) {
-        // Finished typing the current phrase
+        // Finished typing 
         setIsPaused(true);
       }
     }
 
-    // Blink cursor effect
+    // Blinking cursor
     const blinkTimeout = setInterval(() => {
       setBlink((prev) => !prev);
     }, 500);

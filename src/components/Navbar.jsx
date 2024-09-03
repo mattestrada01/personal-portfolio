@@ -26,7 +26,8 @@ const Navbar = () => {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              className={`font-poppins cursor-pointer text-[18px] ${styles.navLink} ${styles.navLinkHover} ${active === nav.title ? "text-white" : "text-secondary"}`}
+              className={`font-poppins cursor-pointer text-[18px] ${styles.navLink} ${styles.navLinkHover} 
+              ${active === nav.title ? "text-white" : "text-secondary"}`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>

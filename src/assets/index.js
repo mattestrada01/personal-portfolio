@@ -33,6 +33,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import game from "./tech/game.png";
+import bot from "./bot.png";
+import swanky from "./swanky.png";
+import atcg from "./atcg.png";
+import haunted from "./haunted.png";
+import matt from "./matt.png";
+import transit from "./transit.png";
 
 export {
   logo,
@@ -68,4 +74,10 @@ export {
   sjsu,
   hornet,
   discord,
+  bot,
+  swanky,
+  atcg,
+  haunted,
+  matt,
+  transit,
 };

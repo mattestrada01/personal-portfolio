@@ -1,11 +1,7 @@
 import {
-    mobile,
-    backend,
-    creator,
     sce,
     sjsu,
     hornet,
-    web,
     game,
     javascript,
     typescript,
@@ -20,14 +16,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    bot,
+    swanky,
+    atcg,
+    haunted,
+    matt,
+    transit,
   } from "../assets";
   
   export const navLinks = [
@@ -38,6 +33,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -154,45 +153,52 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Haunted Heights",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "2-Dimensional Platformer Game designed with RGB pixel manipulation.",
+      tags: [
+        {
+          name: "java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OOP",
+          color: "green-text-gradient",
+        },
+      ],
+      image: haunted,
+      source_code_link: "https://github.com/mattestrada01/Haunted-Heights",
+    },
+    {
+      name: "Swanky Home Services",
+      description:
+        "Fully responsive business website (desktop/mobile) that utilizes 3rd party APIs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: swanky,
+      source_code_link: "https://swankyhomeservices.com/",
+    },
+    {
+      name: "Apostleland TCG",
+      description:
+        "Full-stack database website that allows users to view, search, and filter trading cards.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
@@ -200,41 +206,41 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: atcg,
+      source_code_link: "https://github.com/EthanWen11/ATCG-Database-Project",
     },
     {
-      name: "Job IT",
+      name: "SCE Discord Bot",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Discord bot managing SJSU server's automatically and offers many commands.",
       tags: [
         {
-          name: "react",
+          name: "discordjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "docker",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "discordAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bot,
+      source_code_link: "https://github.com/SCE-Development/SCE-discord-bot",
     },
     {
-      name: "Trip Guide",
+      name: "SCE Transit",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Public transit website that delivers accurate and prompt stop times.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "fastAPI",
           color: "green-text-gradient",
         },
         {
@@ -242,10 +248,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: transit,
+      source_code_link: "https://sce.sjsu.edu/transit/#10th-and-taylor",
+    },
+    {
+      name: "Personal Portfolio",
+      description:
+        "Personal portfolio website showcasing my projects and skills with a user-friendly design.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: matt,
+      source_code_link: "https://github.com/mattestrada01/personal-portfolio",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
   

@@ -3,16 +3,8 @@ import {
     sjsu,
     hornet,
     game,
-    javascript,
-    html,
-    css,
     reactjs,
     discord,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    docker,
     bot,
     swanky,
     atcg,
@@ -28,15 +20,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
     },
     {
       id: "projects",
       title: "Projects",
-    },
-    {
-      id: "contact",
-      title: "Contact",
     },
   ];
   
@@ -53,10 +41,6 @@ import {
       title: "React Native Developer",
       icon: reactjs,
     },
-  ];
-  
-  const technologies = [
-   
   ];
   
   const experiences = [
@@ -112,6 +96,10 @@ import {
           name: "oop",
           color: "green-text-gradient",
         },
+        {
+          name: "memoryManagement",
+          color: "pink-text-gradient",
+        },
       ],
       image: haunted,
       source_code_link: "https://github.com/mattestrada01/Haunted-Heights",
@@ -128,6 +116,10 @@ import {
         {
           name: "tailwind",
           color: "pink-text-gradient",
+        },
+        {
+          name: "emailjs",
+          color: "green-text-gradient",
         },
       ],
       image: swanky,
@@ -219,5 +211,5 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, projects };
+  export { services, experiences, projects };
   

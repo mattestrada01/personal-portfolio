@@ -14,7 +14,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.75)}>
       <div className='bg-[#1d1836] p-5 rounded-sm transition-transform 
           duration-300 hover:scale-105 hover:shadow-lg 
           hover:shadow-cyan-400 sm:w-[360px] w-full cursor-pointer' 
@@ -53,7 +53,7 @@ const Projects = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className='mt-14 flex flex-wrap gap-7 justify-center max-w-[1200px] mx-auto'>

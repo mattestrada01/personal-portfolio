@@ -2,9 +2,8 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { SectionWrapper } from '../hoc';
-import { styles } from "../style";
 import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[230px] w-full'>
@@ -36,7 +35,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const Tech = () => {
   return (
-    <div className='flex flex-wrap justify-center gap-10 mb-10'>
+    <div className='flex flex-wrap justify-center gap-10 mb-10 -mt-10'>
     {services.map((service, index) => (
       <ServiceCard key={service.title} index={index} {...service} />
     ))}

@@ -8,6 +8,7 @@ const Hero = () => {
 
   return (
     <section className="relative w-full h-screen mx-auto">
+      {/* Absolute positioned elements */}
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full -ml-3 bg-[#00FFFF]" />
@@ -18,7 +19,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div>
+        <div className="mt-7 ml-2">
           <h1 className={`${styles.heroHeadText}`}>
             Hi, I'm <span className="text-[#00FFFF]">Matt!</span>
           </h1>
@@ -29,11 +30,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute w-full text-center text-[#00fd55] text-4xl" style={{ bottom: '35%' }}>
+      {/* Typewriter text with responsive positioning */}
+      <div className="absolute w-full text-center text-[#00fd55] text-2xl sm:text-4xl bottom-[40%] sm:bottom-[30%]">
         <Typewriter phrases={phrases} />
       </div>
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center' style={{ marginBottom: '30px' }}>
+      {/* Mouse animation, moved lower */}
+      <div className='absolute xs:bottom-20 bottom-40 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

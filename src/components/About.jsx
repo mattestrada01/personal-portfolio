@@ -19,7 +19,7 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 3)}
           className='text-secondary text-[17px] max-w-2xl leading-[30px] mt-4'
         >
-          I’m Matt Estrada, a Senior pursuing a Bachelor of Science in Software Engineering at 
+          I’m Matt Estrada, a 4th-year student pursuing a Bachelor of Science in Software Engineering at 
           San Jose State University. I'm currently searching for a 2025 Summer Internship to expand my software experience! 
           <br></br><br></br>
           I’m passionate about video game development and front-end design, which allows me to bring my vision to life 

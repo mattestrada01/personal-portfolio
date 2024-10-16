@@ -149,7 +149,7 @@ import {
     {
       name: "SCE Discord Bot",
       description:
-        "Discord bot managing SJSU server's automatically and offers many commands.",
+        "Discord bot that manages SJSU servers automatically and offers many commands.",
       tags: [
         {
           name: "discordjs",

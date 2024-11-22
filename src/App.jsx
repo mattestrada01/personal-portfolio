@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { BrowserRouter } from "react-router-dom";
 import { About, Experience, Hero, Navbar, Tech, Projects, Back } from './components';
 
@@ -14,6 +15,7 @@ const App = () => {
         <Experience />
         <Projects />
         <Back />
+        <Analytics />
       </div>
     </BrowserRouter>
   )

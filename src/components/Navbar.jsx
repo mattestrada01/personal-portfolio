@@ -36,7 +36,7 @@ const Navbar = () => {
           ))}
 
             <button
-              onClick={() => window.open('https://drive.google.com/file/d/1HmjsNAedleWM6wi1X9xeljGJoKyLCGjI/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1DpZhSyy6duwbQE6JZ2FgJqpiwocyCIYB/view?usp=sharing', '_blank')}
               className="hidden sm:flex flex-row gap-10 bg-transparent relative transition-all duration-300
                 text-cyan-500 text-[17px] py-1 px-2 rounded-xl shadow-lg hover:bg-cyan-600 hover:text-white 
                 transition-colors duration-400 ease-in-out -mt-1" style={{ border: '2px solid #06b6d4' }} aria-label="Resume"

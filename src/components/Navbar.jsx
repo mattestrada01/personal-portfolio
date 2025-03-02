@@ -71,7 +71,7 @@ const Navbar = () => {
               
               <li className="font-poppins font-medium cursor-pointer text-[16px] ${styles.navLink} ${styles.navLinkHover}">
                 <button
-                  onClick={() => window.open('https://drive.google.com/file/d/1HmjsNAedleWM6wi1X9xeljGJoKyLCGjI/view?usp=sharing', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1ao6zagS2VR2uIRc4WGIChnEhO9KBfEgd/view?usp=sharing', '_blank')}
                   className="bg-transparent border-2 border-cyan-500 text-cyan-500 text-[16px] py-1 px-2 rounded-2xl shadow-lg 
                   hover:bg-cyan-600 hover:text-white transition-colors duration-300 ease-in-out" aria-label="Resume"
                 >
